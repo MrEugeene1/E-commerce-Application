@@ -1,0 +1,9 @@
+123,Eugene Oppong ,Okyere,Eugene@gmail.com,0$556905357Ee,0780762218,66 rue de lille,buyer
+Eugene Oppong,Okyere,Eugene@gmail.com,0$556905357Ee,0780762218,buyer
+Eugene Oppong ,Okyere,www.brvheugeno@gmail.com,1234,0$596057499Ee,buyer
+Eugene Oppong,Okyere,oppong@gmail.com,0$556905357Ee,0780762218,buyer
+Oppon,Shu-Han,Shu-Han@gmail.com,0$596057499Aa,0596057499,seller
+234,Eugene Oppong,Okyere,www.brvheugeno@gmail.com,0$556905357Ee,0780762218,66 rue de lille,seller
+123,Oppong,Okyere,oppong@gmail.com,0$556905357Ee,0596057499,44 rue de lille,buyer
+123,Eugene,Oppong,eugene@gmail.com,0@248050289Ae,0248050289,44 rue de lille,buyer
+123,Allann,Allann,Allann@gmail.com,0$0596057499Ea,0780762218,22 rue de lille,seller
