@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Accessibility with CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Accessible Web Design</h1>
+    </header>
+    <nav>
+            <button type="button" class="menu-button" aria-labelledby="menu-label">
+        ☰
+    </button>
+
+    <span id="menu-label" class="screen-reader-text">Open main menu</span>
+        <ul class="navigation-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <aside class="sidebar" aria-labelledby="sidebar-title">
+            <h2 id="sidebar-title">Accessibility Resources</h2>
+            <section class="sidebar-section" aria-labelledby="legal-title">
+                <h3 id="legal-title">Legal and Standards</h3>
+                <ul class="sidebar-links">
+                    <li><a href="https://www.ada.gov/" target="_blank" rel="noopener noreferrer">ADA (Americans with Disabilities Act)</a></li>
+                    <li><a href="https://www.section508.gov/" target="_blank" rel="noopener noreferrer">Section 508</a></li>
+                    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">WCAG Guidelines (W3C)</a></li>
+                    <li><a href="https://www.access-board.gov/" target="_blank" rel="noopener noreferrer">U.S. Access Board</a></li>
+                </ul>
+            </section>
+            <section class="sidebar-section" aria-labelledby="support-title">
+                <h3 id="support-title">Need Help?</h3>
+                <p>Email: <a href="mailto:accessibility@example.com">accessibility@example.com</a></p>
+                <p>Phone: <a href="tel:+18005551234">1-800-555-1234</a></p>
+            </section>
+        </aside>
+        <main class="main-content">
+            <section class="about">
+                <h2>About Us</h2>
+                <p>We are dedicated to creating accessible web designs.</p>
+            </section>
+            <section class="features">
+                <h2>Features</h2>
+                <ul class="feature-list">
+                    <li>Clear Navigation</li>
+                    <li>Identifiable Links</li>
+                    <li>Simple Layouts</li>
+                    <li>Readable Text</li>
+                    <li>Screen Reader Accessibility</li>
+                </ul>
+                <p>For more information, visit our <a href="https://example.com">Help Center</a>.</p>
+            </section>
+            <section class="example">
+                <h2>Example Text</h2>
+                <p>This is standard text with a font size of 16px. It should be clear and easy to read.</p>
+                <p class="large-text">This text is larger for better visibility.</p>
+                <div class="high-contrast-text">
+                    This is an example of high contrast text. Black text on a white background.
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2050 Accessible Web Design</p>
+    </footer>
+</body>
+</html>
